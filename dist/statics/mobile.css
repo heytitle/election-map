@@ -1,7 +1,13 @@
-@media only screen and (max-width: 800px) {
-    .zone-page h1 {
-        font-size: 23px;
-    }
+@media only screen and (max-width: 763px) {
+  .navbar-brand {
+    transform: scale(0.5);
+    transform-origin: left top;
+    z-index: 10;
+  }
+
+  #ui-container h2 {
+    font-size: 35px;
+  }
 
     .zone-page h2 {
         font-size: 17px;

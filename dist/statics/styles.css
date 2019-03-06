@@ -52,8 +52,16 @@ h1.title {
     color: #9B9B9B;
 }
 
-.ui-guide i {
-    margin-right: 5px;
+.navbar-brand {
+  display: block;
+  font-size: 1.25rem;
+  line-height: inherit;
+  margin-right: 1rem;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 10;
+  top: 6px;
+  left: 16px;
 }
 
 .form input {
@@ -82,9 +90,18 @@ h1.title {
     margin-bottom: 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
+#map .mapboxgl-popup {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+#map .mapboxgl-popup h4 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.ui {
+  pointer-events: initial;
 }
 
 .zone .header {
